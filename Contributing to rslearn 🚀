@@ -1,0 +1,34 @@
+Obrigado pelo seu interesse em contribuir com o rslearn!
+
+Este projeto foi projetado para ser uma biblioteca de machine learning amigável para iniciantes, então todas as contribuições devem seguir simplicidade, clareza e facilidade de uso.
+
+🧠 Antes de começar
+Por favor, entenda o objetivo deste projeto:
+
+Tornar ML mais fácil para iniciantes
+Reduzir complexidade desnecessária
+Fornecer APIs limpas e legíveis
+Manter o comportamento previsível e consistente
+
+🛠️ Como você pode contribuir
+Você pode contribuir das seguintes formas:
+
+🐛 Reportando bugs
+✨ Sugerindo novas funcionalidades
+📚 Melhorando a documentação
+🔧 Corrigindo problemas ou adicionando melhorias
+🧪 Escrevendo testes ou verificações de casos extremos
+
+📌 Diretrizes de estilo de código
+Por favor, siga estas regras:
+
+Mantenha as funções simples e legíveis
+Evite complexidade desnecessária
+Use mensagens de commit significativas (ex: feat:, fix:, refactor:)
+Siga a estrutura existente do projeto
+Adicione comentários apenas quando necessário (o código deve ser autoexplicativo)
+
+📤 Processo de Pull Request
+Faça um fork do repositório
+Crie uma nova branch:
+git checkout -b feature-name
