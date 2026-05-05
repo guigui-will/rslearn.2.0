@@ -1,31 +1,36 @@
 🚀 rslearn
-A beginner-friendly machine learning library that automates preprocessing, training, and evaluation.
+Uma biblioteca de machine learning amigável para iniciantes que automatiza pré-processamento, treinamento e avaliação.
 
-License Python Status Contributions
+Licença Python Status Contribuições
 
-✨ Why rslearn?
-⚡ Minimal setup — no complex configuration
-🤖 Automatic pipeline (scaling, splitting, evaluation)
-📊 Built-in metrics for regression & classification
-🧠 Designed for beginners learning ML concepts
-🧩 Clean and simple API inspired by sklearn
+✨ Por que rslearn?
+⚡ Configuração mínima — sem configuração complexa
+🤖 Pipeline automático (escalonamento, divisão, avaliação)
+📊 Métricas integradas para regressão e classificação
+🧠 Projetado para iniciantes aprenderem conceitos de ML
+🧩 API limpa e simples inspirada no sklearn
+
 Release & Changes
-Version : 1.0.7 - 1.0.6
-Release Date: 2026-05-03
+Versão : 1.0.7 - 1.0.6
+Data de lançamento: 2026-05-03
+
 🚀 Features
 Latest (In Pipeline & linear_model):
-Pipeline With Inbuilt Analysis Method With Regulizations class support
-evaluation() Function Support in All Classes
-More Info: CHANGELOG
-More Parameter Info (in Pipeline): README
-More Parameter Info (in linear_models): README Read Doc Strings For Extra Information About Parameter
+Pipeline com método de análise embutido com suporte à classe de regularizações
+Suporte à função evaluation() em todas as classes
+Mais informações: CHANGELOG
+Mais informações de parâmetros (em Pipeline): README
+Mais informações de parâmetros (em linear_models): README
+Leia as Doc Strings para informações extras sobre parâmetros
 
 Fix
-Shape varification issue in linear_model
-Auto Scaler Problem
+Problema de verificação de shape em linear_model
+Problema no Auto Scaler
+
 Changed
-MIT License to GNU GPL v3
-analysis() to evaluate() in Pipeline
+Licença MIT para GNU GPL v3
+analysis() para evaluate() no Pipeline
+
 🗄️ New File & Folders
 Folder: Pipeline
 File: Pipeline/_pipeline.py
@@ -33,64 +38,70 @@ Download Version Specific Module
 Downloads - Module
 
 📊 Linear Models
-Linear Regression (Single & Multi-feature)
-Logistic Regression (Binary & Multi-class)
-Ridge Regression (L2 Regularization)
-Lasso Regression (L1 Regularization)
+Regressão Linear (uma e múltiplas features)
+Regressão Logística (binária e multiclasse)
+Ridge Regression (Regularização L2)
+Lasso Regression (Regularização L1)
 Elastic Net (L1 + L2)
+
 📏 Metrics
-Mean Squared Error (MSE)
-Mean Absolute Error (MAE)
-Root Mean Squared Error (RMSE)
+Erro Quadrático Médio (MSE)
+Erro Absoluto Médio (MAE)
+Raiz do Erro Quadrático Médio (RMSE)
 R² Score
-Accuracy (for classification)
-✔ Supports single-output and multi-output tasks
+Acurácia (para classificação)
+✔ Suporta tarefas de saída única e múltiplas saídas
 
 🔧 Preprocessing
 StandardScaler
 MinMaxScaler
+
 🧪 Model Selection
 Train-Test Split
 
-Supports stratify for balanced sampling
+Suporta stratify para amostragem balanceada
+
 ⚙️ Optimization Details
-All models in rslearn are implemented using Gradient Descent.
+Todos os modelos no rslearn são implementados usando Gradient Descent.
 
 ⚠️ Important:
 
-Feature scaling is highly recommended for stable and faster convergence.
+O escalonamento de features é altamente recomendado para convergência estável e mais rápida.
 
 Use:
 
-StandardScaler (recommended)
-or MinMaxScaler
-🤖 Auto Standard Scaling (Linear, Logistic, Ridge, Lasso, ElasticNet)
-models include Inbuilt StandardScaler Feature in fit() Method:
+StandardScaler (recomendado)
+ou MinMaxScaler
 
-scale=True  # default
-Automatically applies feature scaling internally
-Helps prevent numerical instability
+🤖 Auto Standard Scaling (Linear, Logistic, Ridge, Lasso, ElasticNet)
+os modelos incluem recurso de StandardScaler embutido no método fit():
+
+scale=True # padrão
+Aplica automaticamente o escalonamento de features internamente
+Ajuda a prevenir instabilidade numérica
+
 📁 Project Structure
 rslearn/
 │
 ├── linear_model/
-│   ├── _linear_regression.py
-│   ├── _logistic_regression.py
-│   ├── _ridge.py
-│   ├── _lasso.py
-│   ├── _elastic_net.py
+│ ├── _linear_regression.py
+│ ├── _logistic_regression.py
+│ ├── _ridge.py
+│ ├── _lasso.py
+│ ├── _elastic_net.py
 │
 ├── preprocessing/
-│   ├── _scaler.py
+│ ├── _scaler.py
 │
 ├── metrics/
-│   ├── _regression.py
+│ ├── _regression.py
 │
 ├── model_selection/
-│   ├── _split.py
+│ ├── _split.py
 │
 └── README.md
-📌 Each module contains its own detailed README with usage examples and explanations.
+
+📌 Cada módulo contém seu próprio README detalhado com exemplos de uso e explicações.
 
 🛠️ Installation
 cd rslearn
@@ -101,6 +112,7 @@ Downloads Older Library
 
 Install dependencies
 pip install -r requirements.txt
+
 📌 Quick Example
 from rslearn.linear_model import LinearRegression
 from rslearn.preprocessing import StandardScaler
@@ -116,23 +128,26 @@ model = LinearRegression()
 model.fit(X_scaled, y)
 
 print(model.predict([40]))
+
 📚 Documentation
-Each folder includes its own README.md
+Cada pasta inclui seu próprio README.md
 
-Covers:
+Cobre:
 
-Usage
-Parameters
-Examples
-Internal working
+Uso
+Parâmetros
+Exemplos
+Funcionamento interno
+
 🎯 Goals of this Project
-Understand ML algorithms from scratch
-Build a sklearn-like API
-Create reusable and modular ML components
-Learn real-world ML system design
-Check Self Ability
+Entender algoritmos de ML do zero
+Construir uma API estilo sklearn
+Criar componentes de ML reutilizáveis e modulares
+Aprender design de sistemas de ML do mundo real
+Testar sua própria habilidade
+
 🧑‍💻 Author
-Rustam Singh Bhadouriya/ guilherme augusto/ will
+Rustam Singh Bhadouriya / guilherme augusto / will
 
 📜 License
-This project is licensed under the GNU GPL v3 License.
+Este projeto está licenciado sob a licença GNU GPL v3.
