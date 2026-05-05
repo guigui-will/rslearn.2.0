@@ -1,0 +1,42 @@
+♦️ Para informações detalhadas leia o CHANGELOG
+changelogs - mais recente
+
+Download do Módulo
+
+# Última versão (instalação padrão)
+pip install rslearn-ML
+
+# Atualizar
+pip install --upgrade rslearn-ML
+
+# v1.0.0
+pip install rslearn-ML==1.0.0
+
+# v1.0.1
+pip install rslearn-ML==1.0.1
+
+# v1.0.2
+pip install rslearn-ML==1.0.2
+
+# v1.0.3
+pip install rslearn-ML==1.0.3
+
+# v1.0.4
+pip install rslearn-ML==1.0.4
+
+# v1.0.5
+pip install rslearn-ML==1.0.5
+
+# v1.0.6
+pip install rslearn-ML==1.0.6
+
+Download do código-fonte
+
+Usando CLI
+Dependências - git
+
+git clone https://github.com/Rustam-Singh-Bhadouriya/rslearn-ML.git
+cd rslearn
+
+
+Usando GitHub Releases para versões estáveis mais recentes com explicação
