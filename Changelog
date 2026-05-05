@@ -1,0 +1,41 @@
+odas as mudanças notáveis deste projeto serão documentadas neste arquivo.
+
+[1.0.7 - v1.0.6] - 2026-05-03
+PR#3
+
+Added
+Pipeline/_pipeline.py
+
+Improvement
+Garantiu estabilidade do gradiente.
+Correção de parâmetros do pipeline.
+Estabilidade do modelo
+Problema de verificação de shape na Regressão Linear e Logística
+
+New Features
+Suporte a Pipeline com ferramenta de análise embutida com suporte a regularizações
+Suporte ao método Evaluation() em todas as Regressões e Pipeline
+Leia mais sobre este parâmetro em Pipeline para mais informações
+Leia mais sobre este parâmetro em linear_models para mais informações
+
+Notes
+Veja a versão anterior para mais informações
+
+Changed
+Licença MIT para GNU GPL v3
+Nome da função analysis() para evaluate()
+
+File Changed
+[ALL] devido à licença e correções
+
+Initial Commit File Changed
+linear_model/_LinearRegression.py
+linear_model/_LogisticRegression.py
+linear_model/_regulizations.py
+linear_model/README.md
+Pipeline/_pipeline.py
+Pipeline/README.md
+init.py
+CHANGELOG.md
+.gitignore
+README.md
