@@ -1,0 +1,26 @@
+Versões suportadas
+Versão | Suportada
+1.0.7 | ✅
+1.0.6 | ✅
+1.0.5 | ✅
+< 1.0.4 | ❌
+
+Reportando uma vulnerabilidade
+
+Se você descobrir uma vulnerabilidade de segurança no rslearn, por favor reporte de forma responsável.
+
+Você pode reportar por:
+
+Abrindo uma issue privada (se estiver habilitado), ou
+Entrando em contato diretamente com o mantenedor via GitHub
+
+Por favor, não divulgue publicamente o problema até que ele tenha sido revisado e resolvido.
+
+O que acontece depois?
+
+Você receberá uma confirmação dentro de um tempo razoável (geralmente dentro de alguns dias).
+O problema será revisado e confirmado se for válido.
+Se aceito, uma correção será priorizada e lançada o mais rápido possível.
+Se o relatório for recusado, você ainda receberá uma explicação clara.
+
+Agradecemos a divulgação responsável e seu esforço para melhorar a segurança do projeto.
